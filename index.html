@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Up</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <main class="main">
+        <!--Nav Section-->
+        <nav id="nav">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="index.html">FashionUp</a>
+                    <ul class="mobile-navbar-icon">
+                        <li class="icon-item">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li class="icon-item">
+                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        </li>
+                        <li class="icon-item">
+                            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                        </li>
+                    </ul>
+                    <span id="hambargar">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                </div>
+
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+
+                <ul class="navbar-icon">
+                    
+                    <input type="text" placeholder="search" id="search-input">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                    <li class="icon-item">
+                        <a href="#"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                    <li class="icon-item">
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li class="icon-item">
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Slider Image Section-->
+        <section id="slider">
+            <div class="container">
+                <img src="assets/image/header1.jpeg" id="slider1" class="slider active">
+                <img src="assets/image/header2.jpg" id="slider2" class="slider">
+                <img src="assets/image/header3.jpg" id="slider3" class="slider">
+                <div class="controls">
+                    <button class="prev" id="prev_btn">
+                        <i class="fa-solid fa-chevron-left"></i>Prev
+                    </button>
+                    <button class="next" id="next_btn">
+                        Next<i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--New Arrivals Section-->
+        <section id="new-arrival" class="products">
+            <div class="container">
+                <h2 class="text-center">New Arrivals</h2>
+                <p class="text-center mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vel velit quos similique amet facere.</p>
+                <div class="cards">
+
+                    <div class="card">
+                        <img src="assets/image/photo1.avif" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/product-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/image/photo2.avif" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                               <a href="pages/product-detial.html"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/image/photo3.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                               <a href="pages/product-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/image/photo4.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                               <a href="pages/product-detial.html"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Collection Section-->
+        <section id="collection">
+            <div class="container">
+                <div class="left">
+                    <div class="card">
+                        <img src="assets/image/collection1.avif" alt="">
+                        <div class="content">
+                            <h3>CLOTH COLLECTION</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="card">
+                        <img src="assets/image/collection2.avif" alt="">
+                        <div class="content">
+                            <h3>SHOE COLLECTION</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/collection3.avif" alt="">
+                        <div class="content">
+                            <h3>WATCH COLLECTION</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Popular Products Section-->
+        <section id="products" class="products">
+            <div class="container">
+                <h2 class="text-center">Popular Products</h2>
+                <p class="text-center mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vel velit quos similique amet facere.</p>
+                <div class="filterable-btns">
+                    <button class="active" id="all_btn">All</button>
+                    <button id="cloth_btn">Cloth</button>
+                    <button id="shoe_btn">Shoes</button>
+                    <button id="watch_btn">Watch</button>
+                    <button id="lapel_btn">Lapel</button>
+                    <button id="necktie_btn">Necktie</button>
+                </div>
+                <div class="cards">
+
+                    <div class="card p-card cloth">
+                        <img src="assets/image/photo1.avif" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/product-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card cloth">
+                        <img src="assets/image/photo6.webp" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/product-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card cloth">
+                        <img src="assets/image/photo3.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/product-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card cloth">
+                        <img src="assets/image/photo5.avif" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/product-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                
+                    <div class="card p-card lapel">
+                        <img src="assets/image/lapel1.avif" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/lapel-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card lapel">
+                        <img src="assets/image/lapel2.avif" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/lapel-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card necktie">
+                        <img src="assets/image/necktie1.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/necktie-detail.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card necktie">
+                        <img src="assets/image/necktie2.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/necktie-detail.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                    
+
+                    <div class="card p-card watch">
+                        <img src="assets/image/watch1.webp" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/watch-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card watch">
+                        <img src="assets/image/watch2.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/watch-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card shoe">
+                        <img src="assets/image/shoes1.png" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/shoe-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card p-card shoe">
+                        <img src="assets/image/shoes2.jfif" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Morden Suit Looks</h4>
+                            <div class="ratting text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$88</h4>
+                        </div>
+                        <div class="actions">
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            <span>
+                                <a href="pages/shoe-detial.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Fashion Blog Section-->
+        <section id="blog">
+            <div class="container">
+                <h2 class="text-center">Latest Fashion Blog</h2>
+                <p class="text-center mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vel velit quos similique amet facere.</p>
+                <div class="cards">
+                    <div class="card">
+                        <img src="assets/image/blog1.jpeg" alt="">
+                        <div class="content">
+                            <h4>Blog Title</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quisquam asperiores cum atque, illum sed.</p>
+                            <span class="date">08 March</span>
+                        </div>
+                    </div>
+                
+                    <div class="card">
+                        <img src="assets/image/blog2.jpg" alt="">
+                        <div class="content">
+                            <h4>Blog Title</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quisquam asperiores cum atque, illum sed.</p>
+                            <span class="date">15 March</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/blog3.avif" alt="">
+                        <div class="content">
+                            <h4>Blog Title</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quisquam asperiores cum atque, illum sed.</p>
+                            <span class="date">21 March</span>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <!--New Letter Section-->
+        <section id="news-letter">
+            <div class="container">
+                <h2 class="text-center">Subscribe To Our News Letter</h2>
+                <p class="text-center mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vel velit quos similique amet facere.</p>
+                <form>
+                    <input type="text" placeholder="Email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer Section-->
+        <footer id="footer">
+            <div class="container">
+                <ul>
+                    <li><h4>About Us</h4></li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad nobis quaerat voluptas cum omnis culpa hic repellendus, dolorem vel alias!</li>
+                    <img src="assets/image/visa1.jpg" alt="">
+                    <img src="assets/image/MPU1.webp" alt="">
+                    <img src="assets/image/cb1.png" alt="">
+                    <img src="assets/image/aya1.png" alt="">
+                </ul>
+                <ul>
+                    <li><h4>Useful links</h4></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+                <ul>
+                    <li><h4>Contact Info</h4></li>
+                    <li>fashionup@gmail.com</li>
+                    <li>09-77771111/ 09-77772222</li>
+                    <li class="social-medias">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <a href="#slider" id="gototop">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+    </main>   
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
