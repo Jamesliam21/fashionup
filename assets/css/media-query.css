@@ -1,0 +1,96 @@
+@media (max-width: 820px) {
+    /*Navbar*/
+    #nav{
+        position: sticky;
+    }
+    #nav .container{
+        flex-direction: column;
+    }
+    #nav .navbar-brand{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    #nav .navbar-menu{
+        flex-direction: column;
+        width: 100%;
+        /*display: none;*/
+        height: 0px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    #nav .navbar-menu.active {
+        /*display: block;*/
+        height: 150px;
+    }
+    #nav .navbar-menu li{
+        padding: 5px 30px;
+    }
+    #nav #navbar-menu li:hover {
+        background: rgb(95, 95, 95);
+    }
+    #nav #hambargar{
+        display: block;
+    }
+    #nav .navbar-icon{
+        display: none;
+    }
+    #nav .mobile-navbar-icon{
+        display: flex;
+        list-style: none;
+    }
+    #nav .mobile-navbar-icon li{
+     padding:0 20px;
+    }
+    /*Product detial*/
+    #product-detial {
+        padding: 30px 10px;
+    }
+    #product-detial .container{
+        flex-direction: column;
+    }
+    
+    /* Collection */
+    #collection .container {
+        flex-direction: column;
+    }
+    #collection .container .right .card{
+        margin: 5px;
+    }
+    #collection .container .left .card{
+        margin: 5px;
+    }
+    #collection .container .left img{
+        object-fit: cover;
+        object-position: 100% 20%;
+    }
+}
+
+@media (max-width: 700px){
+    /*Footer*/
+    #footer .container{
+        flex-direction: column;
+    }
+    #footer ul{
+        margin: 10px 0;
+    }
+}
+@media (max-width: 750px){
+    /*Blog*/
+    #blog .container .cards{
+        flex-direction: column;
+    }
+}
+@media (max-width: 612px){
+    /* Product*/
+    .products .cards .card{
+        flex-basis: 45%;
+    }
+}
+@media (max-width: 400px){
+    /* Product*/
+    .products .cards{
+        flex-direction: column;
+    }
+}
